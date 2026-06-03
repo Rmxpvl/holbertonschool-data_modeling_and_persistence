@@ -1,0 +1,1 @@
+SELECT author, COUNT(*) AS books_written FROM books GROUP BY author;
