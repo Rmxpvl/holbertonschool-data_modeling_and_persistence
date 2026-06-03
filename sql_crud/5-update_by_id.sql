@@ -1,0 +1,1 @@
+UPDATE books SET id = 35 WHERE id = 3;
