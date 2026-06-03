@@ -1,1 +1,1 @@
-SELECT title, author FROM books where genre = 'tech';
+SELECT title, author FROM books where genre = 'Tech';
