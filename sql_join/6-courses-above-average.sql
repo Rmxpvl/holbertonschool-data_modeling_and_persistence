@@ -8,7 +8,7 @@ HAVING COUNT(enrollments.student_id) > (
     FROM (
         SELECT COUNT(enrollments.student_id) AS course_enrollment_count
         FROM courses
-        LEFT JOIN enrollments
+        INNER JOIN enrollments
         ON courses.id = enrollments.course_id
         GROUP BY courses.id
     ) AS enrollment_counts
